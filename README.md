@@ -189,7 +189,8 @@ Converters from various static schedule formats to and from GTFS.
 - [Amarillo](https://github.com/mfdz/amarillo) - Aggregates and enhances carpooling-offers and publishes them as GTFS(-RT)
 - [GTFS Studio](https://gtfs.studio) - Online editor for GTFS feeds
 - [Uttu](https://github.com/entur/uttu) - Back-end for Nplan, a simple timetable editor.
-- [GTFS Express](https://gtfsexpress.com) - Web application to edit, validate and analyze GTFS feeds — including Fares v2 and GTFS-Flex — with an interactive schedule grid and map editor, an SQL console with AI-assisted natural-language queries, and strict canonical validation via [MobilityData's gtfs-validator](https://github.com/MobilityData/gtfs-validator).
+- [GTFS Express](https://gtfsexpress.com) - Browser-based GTFS editor + validator that closes the loop: validate with [MobilityData's canonical validator](https://github.com/MobilityData/gtfs-validator), edit the full Schedule spec plus Fares v2 and GTFS-Flex (schedule grid, map shape editor, SQL console), fix errors with an AI repair assistant that drafts a fix, previews the affected rows, applies it transactionally and re-validates, then re-export a clean feed. Open source, AGPL-3.0: [source](https://github.com/Weyland-Binary/gtfs-express).
+
 
 #### GTFS Merge Tools
 - [combine_gtfs_feeds](https://github.com/psrc/combine_gtfs_feeds) - A Python tool to combine multiple gtfs feeds into one feed/dataset.
